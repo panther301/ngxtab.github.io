@@ -1,0 +1,53 @@
+.button {
+  display: inline-block;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: white; 
+  border: 2px solid #008CBA;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  width: 137px;
+
+  &:hover{
+    background-color: #007399;
+    border: 2px solid #007399;
+    color: white;
+  }
+
+  &:active{
+    border: 2px solid #007399;
+    transform: translateY(1px);
+  }
+}
+
+.tab {
+    margin: 40px;
+}
+
+.tab1 {
+    border: 1px solid #008CBA;
+    padding: 20px;
+    height: 500px;
+}
+
+.tab2 {
+    border: 1px solid #008CBA;
+    padding: 20px;
+    height: 500px;
+}
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+  font-family: Consolas,"courier new";
+  color: crimson;
+  overflow: auto;
+}
+
